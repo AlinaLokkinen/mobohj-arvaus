@@ -20,7 +20,7 @@ export default function App() {
       setMsg('Your guess ' + arvaus + ' is too low')
     }
 
-    setLkm(lkm + 1);
+    setLkm(lkm => lkm + 1);
 
   }
 
